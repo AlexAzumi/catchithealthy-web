@@ -1,6 +1,8 @@
+// Dependencias
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { Ng2BootstrapModule } from 'ng-bootstrap';
+// Componentes
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +10,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    Ng2BootstrapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
