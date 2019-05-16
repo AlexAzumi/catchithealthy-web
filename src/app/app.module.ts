@@ -1,17 +1,19 @@
 // Dependencias
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { Ng2BootstrapModule } from 'ng-bootstrap';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 // Componentes
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/globals/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
-    Ng2BootstrapModule
+    NgbCollapseModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
