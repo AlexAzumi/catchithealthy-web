@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+<nav
+  class="navbar navbar-expand-md navbar-azumi navbar-light bg-transparent px-3 py-2 p-md-0 pr-md-3 sticky-top shadow-sm">
   <button
     class="navbar-toggler"
     type="button"
@@ -9,10 +9,25 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" [ngbCollapse]="isCollapsed">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#inicio">Inicio</a>
-      <a class="nav-item nav-link" href="#acerca">Acerca del juego</a>
-      <a class="nav-item nav-link" href="#descarga">Descarga</a>
+    <div class="navbar-nav ml-auto">
+      <a
+        class="nav-item nav-link px-3 py-md-3 slide-1"
+        href="#"
+        (click)="collapseNavbar()">
+          <i class="fas fa-home"></i> Inicio
+        </a>
+      <a
+        class="nav-item nav-link px-3 py-md-3 slide-2"
+        href="#capturas"
+        (click)="collapseNavbar()">
+          <i class="fas fa-camera"></i> Capturas
+        </a>
+      <a
+        class="nav-item nav-link px-3 py-md-3 slide-3"
+        href="#descargar"
+        (click)="collapseNavbar()">
+          <i class="fas fa-download"></i> Descargar
+        </a>
     </div>
   </div>
 </nav>
