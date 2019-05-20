@@ -1,6 +1,6 @@
 {
-  "name": "catchithealthy-web",
-  "version": "0.1.0",
+  "name": "healthy-catching-web",
+  "version": "0.2.1",
   "scripts": {
     "start": "ng serve",
     "build": "sass src/styles/custom.scss src/styles.css && ng build --prod",
