@@ -1,6 +1,8 @@
-# Sitio web | Catch It Healthy
+# Sitio web | Healthy Catching
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6dc5fd71-8719-4c77-a52f-79d334fb6ce4/deploy-status)](https://app.netlify.com/sites/catchithealthy/deploys)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/alexazumi/healthy-catching-web.svg?style=popout)
+![GitHub repo size](https://img.shields.io/github/repo-size/alexazumi/healthy-catching-web.svg?style=popout)
 
 <p align="center">
   <img src="/src/assets/img/fruits/apple.png" alt="Logo" width="250px">
@@ -14,8 +16,8 @@
 ## Clonar repositorio
 Primero es necesario clonar el repositorio a tu equipo y entrar a la carpeta del proyecto
 ```
-git clone https://github.com/AlexAzumi/catchithealthy-web.git
-cd catchithealthy-web
+git clone https://github.com/AlexAzumi/healthy-catching-web.git
+cd healthy-catching-web
 ```
 
 ## Instalar dependencias
