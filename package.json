@@ -3,7 +3,7 @@
   "version": "0.2.1",
   "scripts": {
     "start": "ng serve",
-    "build": "sass src/styles/custom.scss src/styles.css && ng build --prod",
+    "build": "npm run sass && ng build --prod",
     "sass": "sass src/styles/custom.scss src/styles.css",
     "sass:watch": "sass src/styles/custom.scss src/styles.css --watch",
     "test": "ng test",
