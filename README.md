@@ -1,6 +1,7 @@
 # Sitio web | Healthy Catching
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6dc5fd71-8719-4c77-a52f-79d334fb6ce4/deploy-status)](https://app.netlify.com/sites/catchithealthy/deploys)
+[![CodeFactor](https://www.codefactor.io/repository/github/alexazumi/healthy-catching-web/badge)](https://www.codefactor.io/repository/github/alexazumi/healthy-catching-web)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/alexazumi/healthy-catching-web.svg?style=popout)
 ![GitHub repo size](https://img.shields.io/github/repo-size/alexazumi/healthy-catching-web.svg?style=popout)
 
